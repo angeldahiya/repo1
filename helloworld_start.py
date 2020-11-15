@@ -1,13 +1,14 @@
 #
 # Example file for HelloWorld
 #
-
-
+name = "Angel1"
+print("hello1")
 def main ():
     print ("hello world!")
-    #name = input("what is your name? ")
-    #print("Nice to meet you,", name)
+    
 
 
-    if __name__ == "__main__":
-        main()
+    if name == "Angel1":
+        #main()
+        print ("hello")
+main()
